@@ -1,4 +1,10 @@
 You're right! Let me provide you with the complete step-by-step commands and procedures for deploying the Customer Onboarding Tracker application on AWS.
+## **Technology Stack**
+
+- **Frontend**: React with Next.js App Router
+- **Styling**: Tailwind CSS with shadcn/ui components
+- **State Management**: React hooks with localStorage persistence
+- **Icons**: Lucide React icons
 
 ## **Complete AWS Deployment Guide with Commands**
 
