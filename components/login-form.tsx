@@ -52,10 +52,21 @@ export function LoginForm({ onLogin }: LoginFormProps) {
 
       {/* Main Content */}
       <div className="flex-1 flex items-center justify-between px-16">
-        {/* Left Side - 3D Illustration */}
-        <div className="flex-1 flex items-center justify-center">
+        {/* Left Side - Simple Product Titles */}
+        <div className="flex-1 flex flex-col items-center justify-center space-y-12">
+          {/* Product Titles */}
+          <div className="text-center space-y-8">
+            <div>
+              <h2 className="text-5xl font-bold text-blue-400 mb-2">Matilda Optimize</h2>
+            </div>
+
+            <div>
+              <h2 className="text-5xl font-bold text-blue-400 mb-2">Rapid Assessments Tracker</h2>
+            </div>
+          </div>
+
+          {/* Keep the existing 3D illustration */}
           <div className="relative">
-            {/* 3D Cloud Infrastructure Illustration */}
             <div className="relative w-96 h-96">
               {/* Cloud Base */}
               <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-80 h-32 bg-gradient-to-r from-blue-100 to-blue-200 rounded-full opacity-80 blur-sm"></div>
@@ -102,7 +113,7 @@ export function LoginForm({ onLogin }: LoginFormProps) {
 
                   {/* Floating Elements */}
                   <div className="absolute -top-8 left-4 w-8 h-8 bg-blue-400 rounded-lg shadow-lg transform rotate-45 animate-pulse"></div>
-                  <div className="absolute -top-4 -right-4 w-6 h-6 bg-blue-300 rounded-full shadow-lg animate-bounce"></div>
+                  <div className="absolute -top-4 -right-4 w-6 h-6 bg-green-400 rounded-full shadow-lg animate-bounce"></div>
                 </div>
               </div>
             </div>
