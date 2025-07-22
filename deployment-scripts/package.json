@@ -1,0 +1,13 @@
+{
+  "name": "onboarding-tracker-deployment",
+  "version": "1.0.0",
+  "description": "Deployment scripts for Customer Onboarding Tracker",
+  "scripts": {
+    "deploy": "bash install.sh",
+    "backup": "bash backup.sh",
+    "update": "bash update.sh"
+  },
+  "keywords": ["deployment", "aws", "onboarding", "tracker"],
+  "author": "Your Company",
+  "license": "MIT"
+}
